@@ -26,6 +26,8 @@ vault.hashicorp.com/agent-pre-populate-only: "false"
 | `role` | `order-service` | The Vault role this pod authenticates as (maps to a Vault policy) |
 | `agent-pre-populate-only` | `"false"` | Sidecar keeps running after startup to refresh secrets continuously |
 
+- [What is a Sidecar?](docs/Sidecar.md)
+
 ### What happens behind the scenes:
 
 ```
